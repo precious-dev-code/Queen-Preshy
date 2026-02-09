@@ -252,12 +252,23 @@ Chat on WhatsApp
 <p>Here’s a quick intro video about me:</p>
 
 <div class="ratio ratio-16x9 mb-4">
-<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="YouTube video" allowfullscreen></iframe>
+  <video controls width="100%
+  height="auto">
+  <source
+  src="https://i.imgur.com/Ro5jtSq.mp4"
+  type="video/mp4">
+</video>
 </div>
+<p style="margin-top: 10px;
+font-size: 1.15rem; color:#333;
+max-width:700px; margin-left:auto;
+margin-right:auto; line-height:1.5;">
+I help busy entrepreneurs and small businesses handle emails, social media, and admin work-anywhere in the world. click the button below to chat with me on Whatsapp!
+</p>
 
 <!-- Fixed WhatsApp button below video -->
 <button class="btn whatsapp-btn" onclick="window.location.href='https://wa.me/27658210147'">
-Chat on WhatsApp
+<i class="bi bi-whatsapp"></i> Chat me on Whatsapp
 </button>
 
 <a href="mailto:preciousdenga2@gmail.com" class="btn btn-primary">Email Me</a>
@@ -269,32 +280,53 @@ Chat on WhatsApp
 <div class="container">
 <h2 class="text-center fw-bold mb-5">What Clients Say</h2>
 
-<div class="row g-4">
+<div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
 
-<div class="col-md-4">
-<div class="testimonial">
+<div class="carousel-inner">
+
+<div class="carousel-item active text-center">
+<div class="testimonial mx-auto" style="max-width:700px;">
 <p>"Precious transformed my inbox in just days. Highly recommend!"</p>
 <strong>— Sarah M.</strong>
 </div>
 </div>
 
-<div class="col-md-4">
-<div class="testimonial">
+<div class="carousel-item text-center">
+<div class="testimonial mx-auto" style="max-width:700px;">
 <p>"Professional, fast and reliable VA support."</p>
 <strong>— Daniel K.</strong>
 </div>
 </div>
 
-<div class="col-md-4">
-<div class="testimonial">
+<div class="carousel-item text-center">
+<div class="testimonial mx-auto" style="max-width:700px;">
 <p>"My business is more organized thanks to her."</p>
 <strong>— Amanda R.</strong>
 </div>
 </div>
 
+<div class="carousel-item text-center">
+<div class="testimonial mx-auto" style="max-width:700px;">
+<p>"Hiring Precious was the best decision for my growing business."</p>
+<strong>— Jonathan L.</strong>
+</div>
+</div>
+
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+
 </div>
 </div>
 </section>
+
+
 
 <!-- FAQ -->
 <section id="faq" style="background:#f9f9f9;">
