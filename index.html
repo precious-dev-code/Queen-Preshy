@@ -22,7 +22,7 @@ padding:0;
 
 /* NAVBAR */
 nav{
-background:#ff1493;
+background:#ff69b4;
 }
 
 /* NAV LINKS */
@@ -36,11 +36,29 @@ background:#ff1493;
 
 /* HERO */
 #hero{
-background:linear-gradient(90deg,#ff69b4,#ff1493);
+background:linear-gradient(90deg,#ffb6c1,#ff69b4);
 color:white;
 padding:160px 0 80px;
 text-align:center;
 }
+
+/* Start Here button style */
+.start-btn {
+  background: linear-gradient(90deg, #ff69b4, #ff1493);
+  color: white;
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
 
 /* 🔥 BIG PROFILE IMAGE */
 .profile-img{
@@ -123,19 +141,79 @@ padding:80px 0;
 
 <img src="https://i.imgur.com/UQZc1Ia.png" class="profile-img">
 
-<h1 class="fw-bold text-uppercase">Hi, I'm Precious Denga</h1>
-
-<p>I help busy entrepreneurs handle emails, social media & admin work worldwide.</p>
+<h1 class"fw-bold">
+  Virtual Assistant for Busy Entrepreneurs Who Need Their Time back
+</h1>
+<p style="font-size:1.2rem;
+max-width:700px; margin:auto 0 30px auto;
+line-height:1.5;">
+I help busy entrepreneurs save time by managing inboxes, social media,  and administrative tasks-so they can focus on growing their business.
+</p>
 
 <!-- Fixed WhatsApp button exactly like live site -->
 <button class="btn whatsapp-btn" onclick="window.location.href='https://wa.me/27658210147'">
-Chat on WhatsApp
+<i class="bi bi-whatsapp"></i> Chat on Whatsapp
 </button>
 
-<a href="#products" class="btn btn-light btn-lg">Shop Templates</a>
+<a href="#services" class="btn start-btn"
+style="margin-left:15px;">
+Start Here
+<a/>
 
 </div>
 </header>
+
+<!-- TRUST SECTION -->
+<section style="background:white; padding:60px 0;">
+<div class="container text-center">
+
+<h2 class="fw-bold mb-4">Why Work With Me</h2>
+
+<div class="row g-4">
+
+<div class="col-md-3">
+<div class="card p-4 h-100">
+<h5>⚡ Fast Communication</h5>
+<p>I respond quickly so your business never slows down.</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card p-4 h-100">
+<h5>🎯 Detail-Oriented</h5>
+<p>I focus on accuracy and organization in every task.</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card p-4 h-100">
+<h5>🤝 Reliable Support</h5>
+<p>You can count on me to deliver consistently.</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card p-4 h-100">
+<h5>🔒 Confidential</h5>
+<p>Your business information stays private and secure.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+<section style="background:f0f0f0;
+padding:40px 0; text-align:center;">
+<div class="container">
+  <a href="https://wa.me/27658210147"
+  class="btn whatsapp-btn btn-lg"
+  style="font-size:1.25rem;">
+  Start Here-Chat with Me
+</a>
+</div>
+</section>
+
+
 
 <!-- SERVICES -->
 <section id="services">
